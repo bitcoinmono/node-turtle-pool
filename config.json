@@ -1,8 +1,8 @@
 {
-  "coin": "turtlecoin",
-  "symbol": "TRTL",
-  "coinUnits": 100,
-  "coinDifficultyTarget": 30,
+  "coin": "bitcoinmono",
+  "symbol": "BTCM",
+  "coinUnits": 10000,
+  "coinDifficultyTarget": 50,
   "logging": {
     "files": {
       "level": "info",
@@ -17,7 +17,7 @@
   "poolServer": {
     "enabled": true,
     "clusterForks": "auto",
-    "poolAddress": "TRTLv3mnq2wS6GepH6nb628jEjFseeojACYToJ1BXaZNNEvLkzW327zTVCh7ncGtS2MU2usGNq9ygVwiCTTft9QkN3t5P2Xqv3f",
+    "poolAddress": "btcm.......",
     "blockRefreshInterval": 1000,
     "minerTimeout": 3600,
     "ports": [
@@ -89,9 +89,9 @@
     "allowPaymentId": true,
     "interval": 120,
     "maxAddresses": 50,
-    "transferFee": 100,
-    "minPayment": 100000,
-    "minPaymentIdPayment": 10000000,
+    "transferFee": 1000,
+    "minPayment": 10000000,
+    "minPaymentIdPayment": 1000000000,
     "maxTransactionAmount": 0,
     "denomination": 100
   },
@@ -116,11 +116,11 @@
   },
   "daemon": {
     "host": "127.0.0.1",
-    "port": 11898
+    "port": 11358
   },
   "wallet": {
     "host": "127.0.0.1",
-    "port": 8070,
+    "port": 11359,
     "password": "<replace with rpc password>"
   },
   "redis": {
