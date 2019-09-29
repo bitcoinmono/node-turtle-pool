@@ -89,7 +89,7 @@
     "allowPaymentId": true,
     "interval": 120,
     "maxAddresses": 50,
-    "transferFee": 1000,
+    "transferFee": 5000000,
     "minPayment": 10000000,
     "minPaymentIdPayment": 1000000000,
     "maxTransactionAmount": 0,
